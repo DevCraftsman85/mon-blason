@@ -1,0 +1,102 @@
+@charset "UTF-8";
+.blason-modern {
+  max-width: 800px;
+  margin: 40px auto;
+  font-family: "Inter", sans-serif;
+  color: #333;
+  background: #fff;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+.blason-modern .blason-header {
+  text-align: center;
+  margin-bottom: 40px;
+  border-bottom: 2px solid #f4f7f6;
+  padding-bottom: 20px;
+}
+.blason-modern .blason-header h1 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.blason-modern .blason-header .devise {
+  font-style: italic;
+  color: #3498db;
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+.blason-modern .shield-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.blason-modern .shield-grid .quartier {
+  padding: 20px;
+  background: #f4f7f6;
+  border-radius: 16px;
+  transition: transform 0.3 ease;
+}
+.blason-modern .shield-grid .quartier.mes-envies {
+  border-top: 5px solid #3498db;
+}
+.blason-modern .shield-grid .quartier.mes-valeurs {
+  border-top: 5px solid #2ecc71;
+}
+.blason-modern .shield-grid .quartier.mes-leviers {
+  border-top: 5px solid #f1c40f;
+}
+.blason-modern .shield-grid .quartier.mes-contraintes {
+  border-top: 5px solid #e74c3c;
+}
+.blason-modern .shield-grid .quartier:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+.blason-modern .shield-grid .quartier .image-container {
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  background: #2c3e50;
+}
+.blason-modern .shield-grid .quartier .image-container img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0.9;
+  image-rendering: auto;
+  transition: transform 0.5s ease;
+}
+.blason-modern .shield-grid .quartier:hover img {
+  transform: scale(1.1);
+  opacity: 1;
+}
+.blason-modern .shield-grid .quartier h3 {
+  margin-top: 0;
+  color: #3498db;
+  font-size: 1.1rem;
+  border-left: 4px solid #3498db;
+  padding-left: 10px;
+}
+.blason-modern .shield-grid .quartier ul {
+  list-style: none;
+  padding: 0;
+}
+.blason-modern .shield-grid .quartier ul li {
+  padding: 8px 0;
+  font-size: 0.95rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.blason-modern .shield-grid .quartier ul li:last-child {
+  border-bottom: none;
+}
+.blason-modern .shield-grid .quartier ul li::before {
+  content: "•";
+  color: #3498db;
+  margin-right: 8px;
+}/*# sourceMappingURL=app.css.map */
