@@ -1,5 +1,5 @@
 const blasonData = {
-  identite: "L'artisan du code",
+  identite: "DevCraftsman85",
   devise: "Transformer les problèmes en opportunités",
   sections: [
     {
